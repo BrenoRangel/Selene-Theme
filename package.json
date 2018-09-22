@@ -1,0 +1,23 @@
+{
+  "name": "selene-theme",
+  "icon": "https://cdn1.imggmi.com/uploads/2018/9/22/62b4acdee7a68c40dd1ec5f96ab69a99-full.png",
+  "displayName": "Selene Theme",
+  "description": "A modified version of Dracula Theme (https://draculatheme.com/) with Visual Studio Code default background",
+  "version": "0.0.1",
+  "publisher": "Breno Rangel",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Selene Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Selene Theme-color-theme.json"
+      }
+    ]
+  }
+}
